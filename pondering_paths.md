@@ -12,3 +12,7 @@ absolute path of the file `run` through the directory `challenge` which is in th
 
 ![image](https://github.com/user-attachments/assets/0f1639e1-2e17-4cce-abd0-becdffa6c778)
 
+## Position thy self
+Here, the objective was to, again, run a program `run` from the `challenge` directory. However, unlike earlier, we do not start from the root `/` directory. The starting directory is `position-thy-self/`. From here, I used the **c**hange **d**irectory command (cd) to go back to the root directory. The exact commands were ```cd /``` followed by ```/challenge/run```, which led me to the flag `AAj54A3AJ0P2ApvlSVoar1yVguz.dZDN1QDL0UTN0czW`
+
+![image](https://github.com/user-attachments/assets/f051b0ad-d83c-48da-9f97-8deecb397378)
