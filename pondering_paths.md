@@ -16,3 +16,8 @@ absolute path of the file `run` through the directory `challenge` which is in th
 Here, the objective was to, again, run a program `run` from the `challenge` directory. However, unlike earlier, we do not start from the root `/` directory. The starting directory is `position-thy-self/`. From here, I used the **c**hange **d**irectory command (cd) to go back to the root directory. The exact commands were ```cd /``` followed by ```/challenge/run```, which led me to the flag `AAj54A3AJ0P2ApvlSVoar1yVguz.dZDN1QDL0UTN0czW`
 
 ![image](https://github.com/user-attachments/assets/f051b0ad-d83c-48da-9f97-8deecb397378)
+
+## Position elsewhere
+Very similar to the previous challenge. Only difference being that, instead of travelling to the `/` root directory, we have to change the directory to `/tmp`. The commands are ```cd /tmp``` followed by ```/challenge/run```, which returns the flag `Uzu-sfyINipzH2RAJ5EMXWqo7m3.ddDN1QDL0UTN0czW`
+
+![image](https://github.com/user-attachments/assets/b50543cc-9d0c-46ee-8a50-a6b0333ad998)
