@@ -3,8 +3,8 @@ This is the first module that I tried my hand at. Overall, it was a pretty intui
 ## Intro to Commands
   In this challenge the main task was to get familiarized with using simple, non-argument, commands in the Linux (bash) command line. We were asked to use the ```hello``` command, which 
   returned the flag `86KB7nvKScDOwBWK29YND3Yv6_y.ddjNyUDL0UTN0czW`
-  An issue that I faced here, was how to copy from the Web VSCode terminal, since `Ctrl+C` would simply terminate the ongoing command. I found out that by using `Ctrl+left-mouse-button`, it would
-  send the flag into the search box with the entirety of it selected. From there, I simply copied it.
+  ~~An issue that I faced here, was how to copy from the Web VSCode terminal, since `Ctrl+C` would simply terminate the ongoing command. I found out that by using `Ctrl+left-mouse-button`, it would
+  send the flag into the search box with the entirety of it selected. From there, I simply copied it.~~ Nevermind, the shortcut works. I overthought it. That was not applicable to the Desktop Environment.
   
   ![image](https://github.com/user-attachments/assets/cb8cbdea-0d90-463c-bb15-1f48143aa486)
 
