@@ -28,3 +28,24 @@ I used the command ```grep pwn.college /challenge/data.txt```, which gave me the
 ![image](https://github.com/user-attachments/assets/fd7778ae-d90d-470b-8c50-a13f4dbb6122)
 
 # listing files
+I spent more time on this one, than I should have. The task was to locate an unknown file from the directory `/challenge`. That contents of the file held the flag.
+However, after using the command ```ls /challenge```, followed by ```cat /challenge/13552-renamed-run-5651```, I ran into an issue, where the contents weren't displayed
+entirely. I soon realized, however, that I had to the file. Hence, I changed the directory to `/challenge` using ```cd /challenge``` and then ran the required file by
+using ```./13552-renamed-run-5651```, which led me to the flag `0-2-votFxLQ4FaNmA9_POGwuYkR.dhjM4QDL0UTN0czW`
+
+![image](https://github.com/user-attachments/assets/e7e14eda-89bc-4a83-b233-57283fe3359f)
+
+# touching files
+Here, the main objective was to learn how to use the `touch` command and create files. First, I changed directory to `/tmp` by using ```cd /tmp```, followed by creating the files `pwn` and `college`, by using the commands ```touch pwn``` and ```touch college```. Just for verification, I listed the files in the `/tmp` directory, using ```ls``` command. From there, I changed directory to `root` by using ```cd /``` After that, the final task was to execute the command ```/challenge/run```, which led me to the flag `IYprDImKSAUm48SakrEEfj2HuNo.dBzM4QDL0UTN0czW`
+
+![image](https://github.com/user-attachments/assets/3df31ae3-811e-44bc-8277-838c668a3e64)
+
+# removing files
+As the title suggests, this challenge was pretty self-explanatory. The usage of `rm` command was taught here. The task was to delete a file named `delete_me` from the home directory. Just to check whether the file was even present or not, I used the ```ls ~``` command to check the contents of the `home` directory. Once confirmed about the file's presence, I used the command ```rm ~/delete_me``` to delete the file, finally executing the command ```/challenge/check``` to get the flag `gGgaiOzEcQi4ZGZqnJhG9W0u14q.dZTOwUDL0UTN0czW`
+
+![image](https://github.com/user-attachments/assets/71bfe758-39dd-4eec-a051-28c323cd57f3)
+
+# hidden files
+This challenge showed me how to make hidden files (files which are named in the following manner `.[filename]`) visible by appending a `-a` to the `ls` command. The task was to find a hidden file in the root `/` directory, which had the flag in it. Hence, I used the command ```ls -a /``` to display the contents of the directory. From there, I proceeded to change directory to root, by using the ```cd /``` command, followed by using ```cat .flag-29022313054015``` to display the flag `EngNlxx7Wh7hEzJ9718MNxue-SI.dBTN4QDL0UTN0czW`
+
+![image](https://github.com/user-attachments/assets/3989248e-bd12-4a1b-81d4-4ac87b158bcf)
