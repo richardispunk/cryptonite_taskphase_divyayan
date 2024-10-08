@@ -49,3 +49,19 @@ As the title suggests, this challenge was pretty self-explanatory. The usage of 
 This challenge showed me how to make hidden files (files which are named in the following manner `.[filename]`) visible by appending a `-a` to the `ls` command. The task was to find a hidden file in the root `/` directory, which had the flag in it. Hence, I used the command ```ls -a /``` to display the contents of the directory. From there, I proceeded to change directory to root, by using the ```cd /``` command, followed by using ```cat .flag-29022313054015``` to display the flag `EngNlxx7Wh7hEzJ9718MNxue-SI.dBTN4QDL0UTN0czW`
 
 ![image](https://github.com/user-attachments/assets/3989248e-bd12-4a1b-81d4-4ac87b158bcf)
+
+# An Epic Filesystem Quest
+As the name suggests, it was more of a game than a challenge. Here, I had to search through multiple directories, reading files, to get to the flag `AxBNYaJB6pI6roDtG5NGg2HVI0H.dljM4QDL0UTN0czW`. The following snippets show exactly what I did to find the flag.
+
+![image](https://github.com/user-attachments/assets/51b6f948-38ce-47c6-b369-7aef75bd5bb4)
+
+![image](https://github.com/user-attachments/assets/3538cfc9-9e45-460d-8929-23f93f3c8d10)
+
+![image](https://github.com/user-attachments/assets/bbe8b7f5-9125-4345-ab8a-af10c70cb51d)
+
+# making directories
+This challenge was quite familiar to me due to the extensive use of the required command `mkdir` in the PPS labs. Here, I had to create a new directory `/pwn` in `/tmp`, for which, I used the command ```mkdir /tmp/pwn```. After that, I had to create the file `college` in the new directory, for which I used ```touch /tmp/pwn/college```. Once done, I executed ```/challenge/run```, which led me to the flag `UxJEEHzjEDcrMQICxgM6Y32A1RX.dFzM4QDL0UTN0czW`
+
+![image](https://github.com/user-attachments/assets/037ae029-7c0c-4147-a177-599ff28e5701)
+
+# finding files
