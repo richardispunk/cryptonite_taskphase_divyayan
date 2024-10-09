@@ -65,3 +65,9 @@ This challenge was quite familiar to me due to the extensive use of the required
 ![image](https://github.com/user-attachments/assets/037ae029-7c0c-4147-a177-599ff28e5701)
 
 # finding files
+This one taught me about the `find` command and its usage. The task was to search the filesystem for a file named `flag`, which held the flag. I went about this in the following way. First, by running ```find / -name flag```, I got the location all possible files and directories with the name "`flag`" in them. From there, I tried to change directory into each of the locations, to check whether they were files or directories. On running 
+```cd /opt/ghidra/Ghidra/Processors/PA-RISC/data/languages/flag``` I encountered an error which specified that it was not a directory. Using the ```cat``` command, I got its contents which gave me the flag `QCH6PJxN9DNFEIMDiybA97dTpBH.dJzM4QDL0UTN0czW`
+
+![image](https://github.com/user-attachments/assets/c1743b87-c946-435a-8dc7-784d9b0a66b3)
+
+![image](https://github.com/user-attachments/assets/29d54106-bf0c-46c9-8e1b-69b46645db94)
