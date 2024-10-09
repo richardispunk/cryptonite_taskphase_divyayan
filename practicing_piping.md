@@ -34,3 +34,4 @@
 ![image](https://github.com/user-attachments/assets/35387fad-55fa-483c-bda0-2afcc8497b17)
 
 ## Grepping piped data with tee
+![image](https://github.com/user-attachments/assets/3036c38d-e785-4dd5-9883-dbdaac2f0353)
