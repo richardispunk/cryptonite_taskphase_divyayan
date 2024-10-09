@@ -16,3 +16,13 @@
 ![image](https://github.com/user-attachments/assets/c27b6f42-fa12-44a9-81f7-f424d961ee92)
 
 ## Grepping stored results
+![image](https://github.com/user-attachments/assets/6652083f-ee17-4739-b05e-958520a43cb9)
+![image](https://github.com/user-attachments/assets/e73a51e3-66cc-4367-a579-bb3936c767da)
+
+## Grepping live output
+![image](https://github.com/user-attachments/assets/76df08da-42a9-481c-aaa4-ccc757c47e5e)
+
+## Grepping errors 
+![image](https://github.com/user-attachments/assets/35387fad-55fa-483c-bda0-2afcc8497b17)
+
+## Grepping piped data with tee
