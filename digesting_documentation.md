@@ -1,4 +1,4 @@
-# Digesting Documentation 📄
+# DIGESTING DOCUMENTATION 📄
 
 ## Learning from Documentation
 This challenge aimed to get the user more comfortable with using arguments for certain tasks. Here, for example, simply running ```/challenge/challenge``` would not fetch the flag, it needed an argument ```--giveflag```. The total command ends up as ```/challenge/challenge --giveflag```, which gave me the flag 
