@@ -71,3 +71,9 @@ This one taught me about the `find` command and its usage. The task was to searc
 ![image](https://github.com/user-attachments/assets/c1743b87-c946-435a-8dc7-784d9b0a66b3)
 
 ![image](https://github.com/user-attachments/assets/29d54106-bf0c-46c9-8e1b-69b46645db94)
+
+# linking files
+The final challenge of the module. The task was to symlink the file `/flag` to `/challenge/catflag`, for which I used the command 
+```ln -s /flag /home/hacker/not-the-flag```, fetching me the flag `INpIqW6cZRlik-epLwIpy4H5aBo.dlTM1UDL0UTN0czW`
+
+![image](https://github.com/user-attachments/assets/73cd4ad9-9822-432c-9cd0-211d590dee4d)
