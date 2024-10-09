@@ -20,6 +20,14 @@
 ![image](https://github.com/user-attachments/assets/e73a51e3-66cc-4367-a579-bb3936c767da)
 
 ## Grepping live output
+![image](https://github.com/user-attachments/assets/efd915b0-da39-4201-9244-06c11b0232c6)
+
+## Writing to multiple programs
+![image](https://github.com/user-attachments/assets/bae361c4-8a12-41f5-815a-4f64adf688fa)
+
+## Split-piping stderr and stdout
+![image](https://github.com/user-attachments/assets/f46cbe85-5640-49d7-90c5-e8490f3a4717)
+
 ![image](https://github.com/user-attachments/assets/76df08da-42a9-481c-aaa4-ccc757c47e5e)
 
 ## Grepping errors 
